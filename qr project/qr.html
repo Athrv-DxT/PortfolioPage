@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="./qr-style.css">
+</head>
+<body>
+    <h1> Add Link or Text to generate your own QR</h1>
+    <div class="container">
+        <input type="text" id="text" placeholder="Enter text to embeddd" class="input" />
+        <div class="dimensions_container">
+            <input type="number" id="height" placeholder="height (optional)" class="input opt" />
+            <input type="number" id="width" placeholder="width (optional)" class="input opt" />
+        </div>
+        <button type="button" onclick="generateQR()" class="Button">Start Generating</button>
+        <div id="qr-image"><span class="error"></span><br/><img src="" id="img" /></div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

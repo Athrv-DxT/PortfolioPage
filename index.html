@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Portfolio </title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div class="navbar">
+		<div class="navcontainer">
+			<p class="name"> ATHRV DIXIT </p>
+			<ul>
+				<li><a href="#home"><button id="hb"> Home </button></a></li>
+				<li><a href="#language"><button id="lb"> Languages </button></a> </li>
+				<li><a href="#projects"><button id="pb"> Projects </button></a> </li>
+                <li><a href="#contact"><button id="cb"> Contact Me </button></a> </li>
+				
+			</ul>
+		</div>
+	</div>
+
+
+	<main>
+
+
+		<section id="home">
+            <div class="home-container">
+                <img id="pfp" src="/images/profile.jpg" alt="Profile Picture"/>
+                <div class="home-content">
+                    <h1> Hey There !!!</h1>
+                    <p> My name's Athrv,</p>
+                    <p>
+                        A Tech Enthusiast with keen interest in AI/ML Models, Database Managament and Web Designing.
+                    </p> 
+                    <div class="formal-details">
+                        <p>
+                            Pursuing B.Tech in Computer Science and Engineering (Specialisation in AI/ML)
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+
+		<section id="language">
+            <div class="language-container">
+                <h1> Languages Known </h1>
+                <div class="language-content">
+                    <div class="language-item">
+                        <img src="/images/html  logo.png" alt="HTML logo"/> <p>HTML</p> 
+                    </div>
+                    <div class="language-item">
+                        <img src="/images/css logo.png" alt="CSS logo"/> <p>CSS</p> 
+                    </div>
+                    <div class="language-item">
+                        <img src="/images/js logo.png" alt="JavaScript logo"/> <p>JavaScript</p> 
+                    </div>
+                    <div class="language-item" >
+                        <img src="/images/python logo.png" alt="Python logo" id="py"/> <p>Python</p> 
+                    </div>
+                    <div class="language-item" >
+                        <img src="/images/sql logo.png" alt="MySQL logo" id="sql"/> <p>MySQL</p> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+		<section id="projects">
+            <div class="project-container">
+                <h1> Projects Made </h1>
+                
+                <div class="project-group">
+                    <div class="project-card">
+                        <div class="project-card-inner">
+                            <div class="project-card-front">
+                                <img src="/images/qr logo.png" alt="QR Logo" class="qr-logo">
+                            </div>
+                            <div class="project-card-back">
+                                <p> This QR generator project allows you to create QR code with the text or URL input and as per the size specified </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="qr-button" class="project-btn">
+                        <a href="./qr project/qr.html" target="_blank">QR Generator</a>
+                    </button>
+                </div>
+        
+                <button id="more-button" >
+                    <a href="/more.html" target="_blank">More...</a>
+                </button>
+            </div>
+        </section>
+        
+        
+        <section id="contact">
+            <div class="contact-container">
+                <h1> Contact Me </h1>
+                <div class="contact-opt">
+                    <div class="contact-item">
+                        <a href="http://www.linkedin.com/in/athrv-dixit-65aa59315">
+                            <img src="/images/linkedin logo.png" alt="Linkedin logo" id="linkedin" />               
+                        </a>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://www.instagram.com/mintguy_fr/profilecard/?igsh=aTd3OTAyNGV4NWp3">
+                            <img src="/images/insta logo.jpeg" alt="Instagram logo"/>                        
+                        </a>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://github.com/Athrv-DxT">
+                            <img src="/images/github logo.png" alt="GitHub logo"/>        
+                        </a>
+                    </div>
+                    <div class="contact-item">
+                        <a href="mailto:athrv1dixit@gmail.com">
+                            <img src="/images/gmail logo.png" alt="Gmail logo" id="mail"/> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+	</main>
+	<script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+/* CSS for More Projects Page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f3f4f6;
+    color: #333;
+    padding: 20px;
+}
+
+.details-container {
+    max-width: 100%;
+    padding: 0 10%;
+    text-align: center;
+}
+
+h1 {
+    color: #1f2937;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 10px auto 20px;
+    width: 80%;
+}
+
+.project-work p {
+    color: #4b5563;
+    line-height: 1.6;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.languages-list, .projects-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    margin: 10px 0;
+    margin-top: 50px;
+}
+
+.languages-list li, .projects-list li {
+    color: #2563eb;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .details-container {
+        padding: 0 5%;
+    }
+}
