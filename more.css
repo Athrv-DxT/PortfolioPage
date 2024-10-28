@@ -57,3 +57,156 @@ hr {
         padding: 0 5%;
     }
 }
+
+
+/* #hb{
+    background-color: #80ed99;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: large;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(
+    -60deg,
+    #ffffff00 0%,
+    #ffffff00 40%,
+    #ffffff44 40%,
+    #ffffff44 60%,
+    #ffffff00 60%,
+    #ffffff00 100%
+    );
+
+    background-size: 200% 100%;
+    background-position-x: 150%;
+    transition: scale 0.5s;
+}
+
+#hb:hover{
+    animation: shimmer 1s forwards;
+    scale: 1.1;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position-x: 150%;
+    } 100% {
+        background-position-x: -50%;
+    }
+    
+}
+
+#lb{
+    background-color: #80ed99;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: large;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(
+    -60deg,
+    #ffffff00 0%,
+    #ffffff00 40%,
+    #ffffff44 40%,
+    #ffffff44 60%,
+    #ffffff00 60%,
+    #ffffff00 100%
+    );
+
+    background-size: 200% 100%;
+    background-position-x: 150%;
+    transition: scale 0.5s;
+}
+
+#lb:hover{
+    animation: shimmer 1s forwards;
+    scale: 1.1;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position-x: 150%;
+    } 100% {
+        background-position-x: -50%;
+    }
+    
+}
+
+#pb{
+    background-color: #80ed99;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: large;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(
+    -60deg,
+    #ffffff00 0%,
+    #ffffff00 40%,
+    #ffffff44 40%,
+    #ffffff44 60%,
+    #ffffff00 60%,
+    #ffffff00 100%
+    );
+
+    background-size: 200% 100%;
+    background-position-x: 150%;
+    transition: scale 0.5s;
+}
+
+#pb:hover{
+    animation: shimmer 1s forwards;
+    scale: 1.1;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position-x: 150%;
+    } 100% {
+        background-position-x: -50%;
+    }
+    
+}
+
+#cb{
+    background-color: #80ed99;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: large;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(
+    -60deg,
+    #ffffff00 0%,
+    #ffffff00 40%,
+    #ffffff44 40%,
+    #ffffff44 60%,
+    #ffffff00 60%,
+    #ffffff00 100%
+    );
+
+    background-size: 200% 100%;
+    background-position-x: 150%;
+    transition: scale 0.5s;
+}
+
+#cb:hover{
+    animation: shimmer 1s forwards;
+    scale: 1.1;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position-x: 150%;
+    } 100% {
+        background-position-x: -50%;
+    }
+    
+} */
