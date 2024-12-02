@@ -40,6 +40,7 @@ body {
 
 .name {
     font-size: 3em;
+    font-family: 'Roboto',sans-serif;
     transition: 0.30s;
     color: antiquewhite;
 }
@@ -249,6 +250,19 @@ section {
     margin-top: 0;
 }
 
+.project-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+    flex-wrap: wrap; /* Ensure cards stack on small screens */
+}
+
+.project-card {
+    flex: 1;
+    max-width: 220px; /* Restrict card width */
+    text-align: center; /* Align content center */
+}
+
 .project-container {
     text-align: center;
     margin-top: 250px;
@@ -307,12 +321,14 @@ section {
     padding: 10px;
 }
 
-.qr-logo {
-    width: 100px;
-    height: 100px;
+.qr-logo,
+.cw-logo{
+    width: 150px;
+    height: 150px;
 }
 
-#qr_b {
+#qr_b,
+#cw_b {
     background-color: #a36361;
     color: black;
     font-weight: bold;
@@ -326,7 +342,8 @@ section {
     margin: 0 10px;
 }
 
-#qr_b:hover {
+#qr_b:hover,
+#cw_b:hover {
     background-color: #d3a29d;
 }
 
@@ -350,6 +367,7 @@ section {
 #more_b:hover {
     background-color: #56b870;
 }
+
 
 /* Contact section effect */
 
